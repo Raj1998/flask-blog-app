@@ -1,0 +1,19 @@
+{
+	"params":
+	{
+		"blog_name":"CodeLayers",
+		"local_server":"True",
+		"local_uri":"mysql://root:@localhost/codingthunder",
+		"prod_uri":"mysql://root:@localhost/codingthunder",
+		"fb_url":"http://facebook.com/",
+		"gmail-user" : "",
+		"gmail-password": "",
+		"about_text":"This is the about section of the website and nothing more",
+		"no_of_posts": 3,
+		"admin_user":"a",
+		"admin_password":"a",
+		"upload_location":"C:\\Users\\Raj\\Desktop\\Flask\\static"
+	}
+
+
+}
