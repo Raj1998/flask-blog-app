@@ -190,4 +190,8 @@ def contact():
 						  )
 	return render_template('contact.html', params = params)
 
-app.run(debug=True)
+# app.run(debug=True);
+app.run(debug=True, host="0.0.0.0");
+# The first app.run() will run the flask app on 127.0.0.1 - accessible from this PC only..
+# But second app.run() will run app on 0.0.0.0 - accessible from all devices in same Wifi network 
+# using the url <ip address of this pc>:5000
